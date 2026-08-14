@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discovery — Estatística</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1 — TITULO -->
+  <section class="slide active">
+    <svg class="scatter title-scatter" viewBox="0 0 200 140"> 
+      <circle cx="30" cy="100" r="3"/><circle cx="55" cy="90" r="3"/><circle cx="70" cy="70" r="3"/>
+      <circle cx="95" cy="65" r="3"/><circle cx="110" cy="50" r="3"/><circle cx="130" cy="45" r="3"/>
+      <circle cx="150" cy="30" r="3"/><circle cx="170" cy="20" r="3"/>
+      <path class="reg" d="M15 110 L185 22"/>
+    </svg>
+
+    <div class="eyebrow">#atividade · discovery</div>
+    <h1>O que é<br><span class="accent">Estatística</span>, afinal?</h1>
+    <p class="lede">Uma investigação rápida sobre origem, propósito e aplicação prática construída com apoio de LLMs</p>
+    <p class="tag">CESAR School · Atividade complementar <br>
+    Equipe: Thayná Verçosa e Yasmin Karolina</p>
+  </section>
+
+  <!-- SLIDE 2 — O QUE É -->
+  <section class="slide">
+    <div class="eyebrow">01 · conceito</div>
+    <h1 style="font-size:clamp(32px,4.6vw,58px);">O que é <span class="accent">Estatística</span>?</h1>
+    <p class="lede">É o campo da matemática dedicado a coletar, organizar, resumir, analisar e interpretar dados. Ela transforma números "brutos" e informações dispersas em conhecimento estruturado, permitindo identificar padrões, tendências e incertezas em meio à complexidade do mundo real.</p>
+    <div class="body-grid">
+      <div class="card">
+        <span class="C">Descritiva</span>
+        <h3>Descrever o que já temos</h3>
+        <p>Resume e organiza um conjunto de dados: médias, medianas, gráficos, distribuições. Responde "o que aconteceu?".</p>
+      </div>
+      <div class="card">
+        <span class="C">Inferencial</span>
+        <h3>Prever a partir de uma amostra</h3>
+        <p>Usa uma amostra para tirar conclusões sobre uma população maior. Responde "o que é provável acontecer?".</p>
+      </div>
+    </div>
+    <div class="n-count">n = <b>1</b> / 5</div>
+  </section>
+
+  <!-- SLIDE 3 — CONTEXTO HISTORICO -->
+  <section class="slide">
+    <div class="eyebrow">02 · contexto</div>
+    <h1 style="font-size:clamp(32px,4.6vw,58px);">Como <span class="accent2">surgiu</span>?</h1>
+    <div class="timeline">
+      <div class="t-item">
+        <span class="era">Antiguidade</span>
+        <p><b>Egito, China e Roma</b> já faziam censos para cobrar impostos e recrutar soldados. A palavra "estatística" vem do latim <i>statisticum </i> (relativo ao Estado), nasceu como ferramenta do Estado.</p>
+      </div>
+      <div class="t-item">
+        <span class="era">Séc. XVII</span>
+        <p><b>Pascal e Fermat</b> formalizam a teoria da probabilidade a partir de jogos de azar; <b>John Graunt</b> (1662) analisa registros de óbitos em Londres, um marco da estatística aplicada.</p>
+      </div>
+      <div class="t-item">
+        <span class="era">Séc. XVIII–XIX</span>
+        <p><b>Gauss</b> descreve a curva normal (o "sino"); <b>Quetelet</b> aplica estatística a fenômenos sociais, criando o "homem médio".</p>
+      </div>
+      <div class="t-item">
+        <span class="era">Séc. XIX–XX</span>
+        <p><b>Pearson, Galton e Fisher</b> formalizam correlação e regressão, testes de hipótese e desenho de experimentos. Consolidando a estatística como método científico, a base do que se ensina hoje.</p>
+      </div>
+      <div class="t-item">
+        <span class="era">Era digital</span>
+        <p>Computação e big data levam a estatística direto para <b>ciência de dados e machine learning</b>.</p>
+      </div>
+    </div>
+    <div class="n-count">n = <b>2</b> / 5</div>
+  </section>
+
+  <!-- SLIDE 4 — PARA QUE SERVE -->
+  <section class="slide">
+    <div class="eyebrow">03 · propósito</div>
+    <h1 style="font-size:clamp(32px,4.6vw,58px);">Para que <span class="accent">serve</span>?</h1>
+    <div class="body-grid">
+      <div class="card">
+        <span class="C">Reduzir</span>
+        <h3>Resumir volumes grandes de dados</h3>
+        <p>Transforma milhares de linhas em uma média, um gráfico, um número que faz sentido.</p>
+      </div>
+      <div class="card">
+        <span class="C">Decidir</span>
+        <h3>Basear decisões em evidência</h3>
+        <p>Troca o "achismo" por dados, em negócios, saúde, políticas públicas, produto.</p>
+      </div>
+      <div class="card">
+        <span class="C">Medir</span>
+        <h3>Quantificar incerteza e risco</h3>
+        <p>Diz não só "o que", mas "quão confiável" é uma conclusão.</p>
+      </div>
+      <div class="card">
+        <span class="C">Prever</span>
+        <h3>Testar hipóteses e prever tendências</h3>
+        <p>Compara cenários ("A funciona melhor que B?") e projeta o que vem a seguir.</p>
+      </div>
+    </div>
+    <div class="n-count">n = <b>3</b> / 5</div>
+  </section>
+
+  <!-- SLIDE 5 — ONDE SE APLICA NO CURSO -->
+  <section class="slide">
+    <div class="eyebrow">04 · aplicação</div>
+    <h1 style="font-size:clamp(32px,4.6vw,58px);">Onde entra no <span class="accent2">meu curso</span>?</h1>
+    <p class="lede">Tecnologia &amp; design vivem de dados, mesmo quando não parece.</p>
+    <div class="body-grid single">
+      <ul class="plain">
+        <li><b>UX Research</b> — testes A/B, taxa de conversão, métricas de usabilidade guiam decisões de design.</li>
+        <li><b>Visualização de dados</b> — transformar números em gráficos e dashboards compreensíveis é estatística descritiva na prática.</li>
+        <li><b>IA &amp; Machine Learning</b> — todo modelo é construído sobre probabilidade, regressão e distribuições estatísticas.</li>
+        <li><b>Qualidade de software</b> — cobertura de testes, taxa de bugs e performance são acompanhados com métricas estatísticas.</li>
+        <li><b>Pesquisa de mercado</b> — validar um produto digital antes de lançá-lo depende de amostras e inferência.</li>
+      </ul>
+    </div>
+    <div class="n-count">n = <b>4</b> / 5</div>
+  </section>
+
+  <!-- SLIDE 6 — LLMs UTILIZADOS -->
+  <section class="slide">
+    <div class="eyebrow">05 · método</div>
+    <h1 style="font-size:clamp(32px,4.6vw,58px);">Duas <span class="accent">LLMs</span>, duas leituras</h1>
+    <table class="compare">
+      <tr>
+        <th>Critério</th>
+        <th>Gemini</th>
+        <th>Claude</th>
+      </tr>
+      <tr>
+          <td class="criterio"><strong>Abordagem Histórica</strong></td>
+          <td>Conectou rapidamente a origem estatal com o uso moderno em IA e ciência de dados.</td>
+          <td>Trouxe uma explicação mais detalhada da transição matemática dos séculos XVII e XVIII.</td>
+      </tr>
+      <tr>
+          <td class="criterio"><strong>Estilo e Estrutura</strong></td>
+          <td>Respostas mais diretas, objetivas e prontas para aplicação em apresentações.</td>
+          <td>Texto mais analítico, didático e rico em nuances explicativas.</td>
+      </tr>
+      <tr>
+        <td class="criterio"><strong>Formatos de Saída</strong></td>
+        <td>Gerou estruturas prontas em tópicos, código HTML/CSS interativo e Markdown.</td>
+        <td>Focou em formatação textual limpa, com bom encadeamento de parágrafos.</td>
+      </tr>
+      <tr>
+        <td class="criterio"><strong>Exemplos de Aplicação</strong></td>
+        <td>Trouxe casos de uso focados no mercado atual, algoritmos e Big Data.</td>
+        <td>Destacou aplicações conceituais, cenários práticos e impacto metodológico.</td>
+      </tr>
+      <tr>
+        <td class="criterio"><strong>Facilidade de Síntese</strong></td>
+        <td>Excelente para resumos executivos e pontos de atrito rápidos para slides.</td>
+        <td>Excelente para construção de repertório e aprofundamento teórico prévio.</td>
+      </tr>
+    </table>
+    <div class="n-count">n = <b>5</b> / 5</div>
+  </section>
+
+</div>
+
+<div class="dots" id="dots"></div>
+<div class="nav-hint">← → para navegar</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const dotsWrap = document.getElementById('dots');
+  let current = 0;
+
+  slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' on' : '');
+    d.addEventListener('click', () => go(i));
+    dotsWrap.appendChild(d);
+  });
+  const dots = document.querySelectorAll('.dot');
+
+  function go(i){
+    if(i < 0 || i >= slides.length) return;
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('on');
+    current = i;
+    slides[current].classList.add('active');
+    dots[current].classList.add('on');
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'ArrowRight' || e.key === ' ') go(current + 1);
+    if(e.key === 'ArrowLeft') go(current - 1);
+  });
+
+  let touchStartX = 0;
+  document.addEventListener('touchstart', e => touchStartX = e.touches[0].clientX);
+  document.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if(dx > 50) go(current - 1);
+    if(dx < -50) go(current + 1);
+  });
+</script>
+
+</body>
+</html>
